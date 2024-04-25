@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <div class="mb-3">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+            <label for="player_class" class="form-label">Player_Class:</label>
+            <input type="text" class="form-control" id="player_class" name="player_class" required>
+        </div>
+        <div class="mb-3">
+            <label for="player_type" class="form-label">Player_Type:</label>
+            <input type="text" class="form-control" id="player_type" name="player_type" required>
+        </div><div class="mb-3">
+            <label for="gender" class="form-label">Gender:</label>
+            <input type="text" class="form-control" id="gender" name="gender" required>
+        </div>
+        </div><div class="mb-3">
+            <label for="description" class="form-label">Description:</label>
+            <input type="text" class="form-control" id="description" name="description" required>
+        </div>
+
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+
+    <table border="2">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>username</th>
+                <th>player_class</th>
+                <th>player_type</th>
+                <th>gender</th>
+                <th>description</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <script src="create.js"></script>
+
+</body>
+</html>
